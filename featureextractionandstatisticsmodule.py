@@ -33,15 +33,17 @@ class SignalAnalysis:
         """
         Estimate heart rate using peak detection
         """
-        return compute_rate(signal, fs, 0.6)
+        return 
+        
+        (signal, fs, 0.6)
 
     # ------------------------
     # RESPIRATION FEATURES
     # ------------------------
     @staticmethod
-    def compute_breathing_rate(signal, fs):
+    def compute_breathing_rate(self, signal, fs):
 
-        return compute_rate(signal, fs, 2)
+        return self.compute_rate(signal, fs, 2)
 
     # ------------------------
     # TEMPERATURE FEATURES
