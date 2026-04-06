@@ -169,7 +169,6 @@ class SignalAnalysis:
         return features
     
     
-# consider consolodating the rate definitions into 1 that processes the same functions and have the functions take the result from it
 
 def filters(signal, fc=None, fh=None, order=4, filterType="Lowpass", catagory="IIR", fs=1000):
     """Filter implementation LPF, HPF, BPF for FIR and IIR filters"""

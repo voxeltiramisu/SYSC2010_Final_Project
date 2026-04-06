@@ -1,10 +1,10 @@
 # SYSC2010_Final_Project
 Final project for programming project demonstrating visualization and analysis of ECG, respiration, temperature and motion data
 
-Tests.py contains unit tests for the project used to teste each function ensuring proper functionality 
+To run the program run modules using your interpreter of choice
+    -Be sure to fill out all fields and make sure all drop boxes have been filled
+    or there will be an error outputted to the console 
+    -This includes filters, for example to do an HPF filter you fill in f1 and then put 0 in f2 and the fill out the rest.
 
-main.py is the file containing the main program
 
-modules.py functions used in main.py 
-
-Files by default will export to documents folder in file
+For the datasets to work properly sometimes you may have to put the datafiles one directory up from modules file 
